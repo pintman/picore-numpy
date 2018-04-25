@@ -1,0 +1,9 @@
+Required extensions to build:
+compiletc python3.6-dev
+
+Notes:
+Run 'sudo pip3.6 install numpy' to compile and install.
+If pip is not available, it must be installed first with
+'sudo python3.6 -m ensurepip'
+
+It will be installed into /usr/local/lib/python3.6/site-packages

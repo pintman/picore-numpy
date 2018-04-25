@@ -1,0 +1,9 @@
+Required extensions to build:
+compiletc python3.4-dev
+
+Notes:
+Run 'sudo pip3.4 install numpy' to compile and install.
+If pip is not available, it must be installed first with
+'sudo python3.4 -m ensurepip'
+
+It will be installed into /usr/local/lib/python3.4/site-packages
