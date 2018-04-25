@@ -14,5 +14,5 @@ Nach der Anleitung http://wiki.tinycorelinux.net/wiki:creating_extensions
     cd /tmp/py3.6-numpy
     find usr -not -type d > /tmp/py3.6-numpy/py3.6-numpy.tcz.list
     md5sum /tmp/py3.6-numpy.tcz > /tmp/py3.6-numpy.tcz.md5.txt
-    tar cvzf py3.6-numpy.tar.gz /tmp/py3.6-numpy.{tcz,tcz.list,tcz.m5.txt}
+    tar cvzf py3.6-numpy.tar.gz /tmp/py3.6-numpy.{tcz,tcz.list,tcz.m5.txt,tcz.dep,build-dep}
 
