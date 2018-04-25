@@ -1,8 +1,15 @@
-Notwendige Pakete laden
+# picore-numpy
 
-    tce-load -i compiletc python3.6-dev squashfstools
+Find here the numpy package for the picore distribution based on 
+[tinycore linux](http://www.tinycorelinux.net).
 
-Nach der Anleitung http://wiki.tinycorelinux.net/wiki:creating_extensions
+## Installation
+
+Installation of packages needed for compilation
+
+    $ tce-load -i compiletc python3.6-dev squashfstools
+
+Following the [instructions](http://wiki.tinycorelinux.net/wiki:creating_extensions).
 
     TMP_DIR=/tmp/py3.6-numpy/usr/local/lib/python3.6/
 
