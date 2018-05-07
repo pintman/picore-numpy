@@ -23,3 +23,7 @@ Following the [instructions](http://wiki.tinycorelinux.net/wiki:creating_extensi
     md5sum /tmp/py3.6-numpy.tcz > /tmp/py3.6-numpy.tcz.md5.txt
     tar cvzf py3.6-numpy.tar.gz /tmp/py3.6-numpy.{tcz,tcz.list,tcz.m5.txt,tcz.dep,build-dep}
 
+Finally removing `*pyc` files and [stipping the binaries](http://forum.tinycorelinux.net/index.php/topic,21895.msg137153.html#msg137153).
+
+    $ sudo strip --strip-unneeded /usr/local/lib/python3.6/numpy/core/_dummy.cpython-36m-arm-linux-gnueabihf.so
+    $ sudo strip --strip-debug /usr/local/lib/python3.6/numpy/core/lib/libnpymath.a
